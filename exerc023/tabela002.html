@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            text-align: center;
+            background-color: lightgray;       
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead {background-color:gray;
+            color: white;
+
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+
+        }
+        
+
+        td.num {
+            text-align: right;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        tfoot{
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" width="50px">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.182.147</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">21.182.147</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td scope="row" class="num"><strong>21.182.147</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
